@@ -1,0 +1,17 @@
+# Auto-detect text files and normalize line endings
+* text=auto eol=lf
+
+# Configuration and script files
+*.conf text eol=lf
+*.lua  text eol=lf
+*.glsl text eol=lf
+*.hook text eol=lf
+*.md   text eol=lf
+
+# Windows PowerShell scripts
+*.ps1  text eol=crlf
+
+# Binary files
+*.pdf  binary
+*.png  binary
+*.jpg  binary

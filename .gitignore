@@ -1,0 +1,24 @@
+# GPU shader binary cache (machine & driver specific DXBC caches)
+shaders/cache/*
+!shaders/cache/.gitkeep
+
+# MPV logs and test telemetry
+*.log
+mpv-debug.log
+mpv_test_runs.log
+
+# MPV runtime playback state
+watch_later/
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Editor / IDE directories
+.vscode/
+.idea/
+*.swp
+*.bak
